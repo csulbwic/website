@@ -72,6 +72,38 @@ input, select, textarea {
 	appearance: none;
 }
 
+/**/
+/*.team > img:hover {*/
+/*    transform: scale(1.4);*/
+/*}*/
+
+
+/* .team:hover::after {
+    content: 'hi';
+} */
+
+.nikki {
+    height: 310px;
+    width: 310px;
+    background-image: url('images/nikki.jpg');
+    background-size: contain;
+}
+.innerBio {
+    height: 100%;
+	width: 100%;
+	padding: 2%;
+    background-color: black;
+    opacity: .5;
+    font-weight: 700;
+    color: white;
+    display: none;
+    
+}
+.nikki:hover > .innerBio {
+    display: block;
+}
+
+
 /* Basic */
 
 	html {
