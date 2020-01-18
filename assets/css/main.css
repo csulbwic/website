@@ -2146,8 +2146,8 @@ input, select, textarea {
 		background: #8BADBF;
 		color: #fff;
 		text-align: center;
-		border-radius: 0.5em;
-		text-decoration: none;
+/*		border-radius: 0.5em;
+*/		text-decoration: none;
 		padding: 0.65em 3em 0.65em 3em;
 		border: 0;
 		cursor: pointer;
@@ -2313,11 +2313,16 @@ input, select, textarea {
 			/*border-radius: 100%;*/
 			background: none;
 			border: 1px solid white;
-			width: 4.5em;
+			width: 7em;
 			line-height: 2.0em;
 			text-align: center;
 			font-size: 1.25em;
 			padding: 0;
+			background-color: #9779d3;
+		}
+
+		#header .button:hover {
+			background-color: #7988d3;
 		}
 
 		#header hr {
