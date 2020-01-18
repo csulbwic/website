@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
 @import url("fontawesome-all.min.css");
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
 
 /*
 	Helios by HTML5 UP
@@ -97,7 +99,7 @@ input, select, textarea {
     font-weight: 700;
     color: white;
     display: none;
-    
+
 }
 .nikki:hover > .innerBio {
     display: block;
@@ -2262,7 +2264,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: linear-gradient(rgba(0,0,0,0.540), rgba(0,0,0,0.540)),url("../../images/Cal-State-Long-Beach.jpg");
+        background-image: linear-gradient(rgba(0,0,0,0.540), rgba(0,0,0,0.540)),url("../../images/jacaranda.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
