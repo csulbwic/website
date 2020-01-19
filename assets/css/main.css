@@ -2607,11 +2607,15 @@ figure.effect-steve img {
   transform: perspective(1000px) translate3d(0, 0, 0);
 }
 
-figure.effect-steve h2,
-figure.effect-steve p {
+figure.effect-steve h2 {
   background: #9779d3;
   color: black;
   opacity: 85%;
+}
+
+figure.effect-steve p {
+  background: black;
+  color: white;
 }
 
 figure.effect-steve h2 {
@@ -2626,8 +2630,8 @@ figure.effect-steve p {
   padding: 0.5em;
   font-weight: 800;
   opacity: 0;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s;
 }
 
 figure.effect-steve:hover:before {
@@ -2644,7 +2648,7 @@ figure.effect-steve:hover h2:before {
 }
 
 figure.effect-steve:hover p {
-  opacity: 85%;
+  opacity: 75%;
 }
 
 .grid figure,
@@ -2662,7 +2666,7 @@ img {
 
 .grid figcaption p {
   font-size: 16px;
-  font-weight: 200;
+  font-weight: 400;
   position: absolute;
   bottom: 0;
   margin: 0;
