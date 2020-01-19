@@ -2548,9 +2548,8 @@ input, select, textarea {
 }
 
 .grid figcaption h2 {
-  text-transform: uppercase;
-  word-spacing: -0.15em;
-  font-weight: 300;
+/*  text-transform: uppercase;
+*/  font-weight: 300;
   margin: 1em;
 }
 
@@ -2577,8 +2576,8 @@ input, select, textarea {
 }
 
 .grid figure h2 {
-  word-spacing: -0.15em;
-  font-weight: 300;
+/*  word-spacing: -0.15em;
+*/  font-weight: 300;
   margin: 1em;
 }
 
@@ -2610,8 +2609,9 @@ figure.effect-steve img {
 
 figure.effect-steve h2,
 figure.effect-steve p {
-  background: #f1f1f1;
-  color: #2d434e;
+  background: #9779d3;
+  color: black;
+  opacity: 85%;
 }
 
 figure.effect-steve h2 {
@@ -2644,7 +2644,7 @@ figure.effect-steve:hover h2:before {
 }
 
 figure.effect-steve:hover p {
-  opacity: 1;
+  opacity: 85%;
 }
 
 .grid figure,
@@ -2670,21 +2670,11 @@ img {
 }
 
 figure:hover h2 {
-  background: #f1f1f1;
-  transition: transform 0.5s;
+  background: #9779d3;
+  transition: transform 0.3s;
   /*transform: translateY(-2.5em);*/
   transform: translateY(-10.5em);
 }
-
-h1.slogan {
-  text-align: center;
-  background-color: #2d434e;
-  font-weight: 100;
-  margin: 0;
-  padding: 20px;
-}
-
-
 
 /* Sponsors */
 #sponsors .sponsor {
