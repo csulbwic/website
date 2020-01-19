@@ -2507,9 +2507,18 @@ input, select, textarea {
     max-width: 100%;
    }
 
-   #sponsors .sponsor:hover {
-   	opacity: 1.0;
+
+	#sponsors .sponsor:hover {
+	   	opacity: 1.0;
+	   }
+
+#sponsors a {
+   	color: #9779d3;
    }
+
+	#sponsors a:hover {
+	   	color: #7988d3;
+	   }
 
 
 /* Banner */
