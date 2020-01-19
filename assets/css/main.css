@@ -2498,6 +2498,19 @@ input, select, textarea {
 				border-left: solid 0.75em rgba(64, 64, 64, 0);
 				border-right: solid 0.75em rgba(64, 64, 64, 0);
 			}
+/* Sponsors */
+#sponsors .sponsor {
+    display: inline-block;
+    max-height: 250px;
+    margin: 20px 20px;
+    opacity: 0.75;
+    max-width: 100%;
+   }
+
+   #sponsors .sponsor:hover {
+   	opacity: 1.0;
+   }
+
 
 /* Banner */
 
