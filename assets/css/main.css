@@ -3252,3 +3252,21 @@ input, select, textarea {
 					}
 
 	}
+
+
+.active-info {
+	padding: 6em 6em 6em 6em;
+	opacity: 0.9;
+	color: rgb(250, 246, 246);
+	display: grid;
+	grid-gap: 30px;
+	grid-template-areas: "s-1";
+	grid-template-columns: repeat(1, 1fr);
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; 
+	}
+	.active-info .s-1 {
+		grid-area: s-1; 
+		background: #5b5b5b;
+		padding: 0.5rem;
+		}
+
