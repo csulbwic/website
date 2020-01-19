@@ -2618,6 +2618,10 @@ figure.effect-steve p {
   color: white;
 }
 
+figure.effect-steve h3 {
+  color: white;
+}
+
 figure.effect-steve h2 {
   position: absolute;
   padding: 0.25em;
@@ -2625,7 +2629,8 @@ figure.effect-steve h2 {
   width: 100%;
 }
 
-figure.effect-steve p {
+figure.effect-steve p,
+figure.effect-steve h3 {
   margin-top: 1em;
   padding: 0.5em;
   font-weight: 800;
@@ -2651,6 +2656,10 @@ figure.effect-steve:hover p {
   opacity: 75%;
 }
 
+figure.effect-steve:hover h3 {
+  opacity: 1;
+}
+
 .grid figure,
 figcaption,
 img {
@@ -2673,11 +2682,24 @@ img {
   height: 100%;
 }
 
+.grid figcaption h3 {
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 25%;}
+
+
 figure:hover h2 {
   background: #9779d3;
   transition: transform 0.3s;
   /*transform: translateY(-2.5em);*/
   transform: translateY(-10.5em);
+}
+
+a i {
+ padding-left: 15px;
 }
 
 /* Sponsors */
