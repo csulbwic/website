@@ -3199,6 +3199,14 @@ a i {
 				margin: 0 0 1em 0;
 			}
 
+			.image.featured img{
+				width: 50%;
+				display: block;
+				  margin-left: auto;
+				  margin-right: auto;
+			}
+
+			@media screen and (max-width: 840px)
 		/* Actions */
 
 			form ul.actions {
