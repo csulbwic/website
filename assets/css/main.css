@@ -2524,6 +2524,7 @@ input, select, textarea {
   height: 240px;
   background: #3085a3;
   display: inline-block;
+  vertical-align: top;
   position: relative;
   overflow: hidden;
   text-align: center;
@@ -2536,7 +2537,7 @@ input, select, textarea {
   opacity: 0.8;
   height: 240px;
   @media(max-width: 1260px) {
-    height: 270px;
+    height: 240px;
   }
 }
 
@@ -2668,7 +2669,7 @@ img {
 
 .grid figure figcaption h2 {
   font-size: 20px;
-  margin-bottom: 0;
+  margin-bottom: -.5em;
   margin-left: 0;
   margin-right: 0;
 }
