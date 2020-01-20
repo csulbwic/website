@@ -2649,7 +2649,7 @@ figure.effect-steve h2 {
 figure.effect-steve p,
 figure.effect-steve h3 {
   margin-top: 1em;
-  padding: 0.5em;
+  padding: 0.3em;
   font-weight: 800;
   opacity: 0;
   -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
@@ -2710,6 +2710,17 @@ img {
   margin-bottom: -2.2em;
   height: 20%;}
 
+ .grid figcaption h3.major-year {
+  font-size: 14px;
+  display: inline-block;
+  text-align: right;
+  padding: 0;
+  padding-right: 5px;
+  bottom: 0;
+  margin: 0;
+  margin-bottom: -1em;
+
+}
 
 figure:hover h2 {
   background: #e5badb;
@@ -2717,6 +2728,16 @@ figure:hover h2 {
   /*transform: translateY(-2.5em);*/
   transform: translateY(-20.5em);
 }
+
+ .grid figcaption a:hover{
+			color: #e5badb;
+			border-bottom-color: transparent;
+		}
+
+ #advisers .grid figcaption a:hover{
+			color: #936ede;
+			border-bottom-color: transparent;
+		}
 
 a i {
  padding-left: 15px;
