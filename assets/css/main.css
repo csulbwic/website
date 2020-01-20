@@ -2387,10 +2387,14 @@ input, select, textarea {
 		z-index: 1;
 		overflow: hidden;
 	}
-	 #nav a:hover{
-			color: #e5badb;
-			border-bottom-color: transparent;
-		}
+
+	#nav > ul > li.active {
+    color: #e5badb;
+	}
+
+	#nav > ul > li {
+		border: none !important;
+	}
 
 		#nav > ul {
 			line-height: 0px;
