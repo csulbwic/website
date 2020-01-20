@@ -2608,8 +2608,22 @@ figure.effect-steve img {
   transform: perspective(1000px) translate3d(0, 0, 0);
 }
 
+#advisers figure.effect-steve h2 {
+  background: #936ede;
+  color: black;
+  opacity: 95%;
+}
+
+#advisers figure:hover h2 {
+  background: #936ede;
+  transition: transform 0.3s;
+  /*transform: translateY(-2.5em);*/
+  transform: translateY(-10.5em);
+}
+
 figure.effect-steve h2 {
-  background: #9779d3;
+/*  background: #9779d3;
+*/  background: #e5badb;
   color: black;
   opacity: 85%;
 }
@@ -2693,7 +2707,7 @@ img {
 
 
 figure:hover h2 {
-  background: #9779d3;
+  background: #e5badb;
   transition: transform 0.3s;
   /*transform: translateY(-2.5em);*/
   transform: translateY(-10.5em);
