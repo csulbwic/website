@@ -2631,7 +2631,7 @@ figure.effect-steve h2 {
 figure.effect-steve p {
   background: black;
   color: white;
-  line-height: 0.95;
+  line-height: 1;
   word-spacing: normal;
 }
 
@@ -2670,7 +2670,7 @@ figure.effect-steve:hover h2:before {
 }
 
 figure.effect-steve:hover p {
-  opacity: 75%;
+  opacity: 80%;
 }
 
 figure.effect-steve:hover h3 {
@@ -2692,7 +2692,7 @@ img {
 
 
 .grid figcaption p {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 300;
   position: absolute;
   text-align: left;
@@ -2702,13 +2702,13 @@ img {
 }
 
 .grid figcaption h3 {
-  font-size: 12px;
+  font-size: 9px;
   font-weight: 400;
   position: absolute;
   bottom: 0;
-/*  margin: 0;
-*/  margin-bottom: -2em;
-  height: 25%;}
+  margin: 0;
+  margin-bottom: -2.2em;
+  height: 20%;}
 
 
 figure:hover h2 {
