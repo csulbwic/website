@@ -2839,9 +2839,13 @@ a i {
 			color: #fff;
 		}
 
+		#footer ul.icons {
+			margin: -3em;
+		}
+
 		#footer .contact {
 			text-align: center;
-			padding: 2em;
+
 		}
 
 			#footer .contact p {
@@ -2864,6 +2868,32 @@ a i {
 					color: rgba(212, 212, 212, 0.85);
 				}
 
+		#footer .container {
+			padding: 2em;
+		}
+
+		#footer .button {
+			display: inline-block;
+			/*border-radius: 100%;*/
+			background: none;
+			border: 1px solid ##372372;
+			box-shadow:         3px 3px 5px 6px #5f38ad;
+			width: 10em;
+			line-height: 2.0em;
+			text-align: center;
+			font-size: 1.25em;
+			font-weight: bold;
+			padding: 0;
+			background-color: #150954;
+		}
+
+		#footer .button:hover {
+			background-color: #7988d3;
+		}
+
+		#footer .row > .col-4{
+			text-align: center;
+		}
 /* Carousel */
 
 	.carousel {
