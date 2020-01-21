@@ -3275,6 +3275,11 @@ a i {
 				width: 100%;
 			}
 
+		/* Sponsors */
+		#sponsors .sponsor {
+			width: 75%;
+		}
+
 		/* Nav */
 
 			#page-wrapper {
