@@ -2639,10 +2639,20 @@ figure.effect-steve h2 {
 }
 
 figure.effect-steve p {
-  background: black;
+  /*background: black;*/
   color: white;
   line-height: 1;
   word-spacing: normal;
+}
+
+/*figure.effect-steve .overlay{
+	display: none;
+}*/
+
+figure.effect-steve .overlay:hover {
+    background: black;
+    height: 240px;
+    opacity: .75;
 }
 
 figure.effect-steve h3 {
@@ -2680,7 +2690,7 @@ figure.effect-steve:hover h2:before {
 }
 
 figure.effect-steve:hover p {
-  opacity: 80%;
+  opacity: 1;
 }
 
 figure.effect-steve:hover h3 {
@@ -2703,7 +2713,7 @@ img {
 
 .grid figcaption p {
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 400;
   position: absolute;
   text-align: left;
   bottom: 0;
@@ -2851,6 +2861,7 @@ a i {
 
 		#footer ul.icons {
 			margin: -3em;
+			width: 100%;
 		}
 
 		#footer .contact {
@@ -2888,13 +2899,13 @@ a i {
 			background: none;
 			border: 1px solid ##372372;
 			box-shadow:         3px 3px 5px 6px #5f38ad;
-			width: 10em;
 			line-height: 2.0em;
 			text-align: center;
-			font-size: 1.25em;
+			font-size: 1.2em;
 			font-weight: bold;
 			padding: 0;
 			background-color: #150954;
+			width: 100%;
 		}
 
 		#footer .button:hover {
@@ -3556,10 +3567,10 @@ a i {
 	grid-gap: 30px;
 	grid-template-areas: "s-1";
 	grid-template-columns: repeat(1, 1fr);
-	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; 
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 	}
 	.active-info .s-1 {
-		grid-area: s-1; 
+		grid-area: s-1;
 		background: #5b5b5b;
 		padding: 0.5rem;
 		}
