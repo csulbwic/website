@@ -3355,11 +3355,15 @@ a i {
     }
 
     header>p {
-        font-size: 1.25em;
+        font-size: 20px#;
     }
 
     #header img {
         width: 75%;
+    }
+
+    #header h1 a {
+    font-size: 35px;
     }
 
     /* Image */
