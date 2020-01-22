@@ -3300,7 +3300,7 @@ a i {
 
 }
 
-/* Mobile */
+/* Mobile Responsive */
 
 #navPanel,
 #titleBar {
@@ -3364,6 +3364,15 @@ a i {
 
     #header h1 a {
     font-size: 35px;
+    }
+
+    header>p{
+        font-size: 16px;
+    }
+
+    .text
+    {
+        padding: 1em;
     }
 
     #membership .member p
