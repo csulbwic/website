@@ -3366,6 +3366,11 @@ a i {
     font-size: 35px;
     }
 
+    .member p
+    {
+        text-align: left;
+    }
+
     /* Image */
 
     .image.featured {
