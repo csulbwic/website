@@ -2645,7 +2645,6 @@ body.homepage.is-preload #header:after {
         text-align: center;
     }
 
-
 /* Team */
 /*#team .officer {
     display: inline-block;
@@ -2785,9 +2784,9 @@ figure.effect-steve p {
     word-spacing: normal;
 }
 
-figure.effect-steve .overlay{
-    -webkit-overflow-scrolling: touch;
-}
+/*added ".overlay:active 
+:hover does not work on mobile 
+*/
 
 figure.effect-steve .overlay:hover, .overlay:active {
     background: black;
@@ -2816,11 +2815,11 @@ figure.effect-steve h3 {
     transition: opacity 0.5s, transform 0.5s;
 }
 
-figure.effect-steve:hover:before {
+figure.effect-steve:hover:before, .effect-steve:active {
     opacity: 1;
 }
 
-figure.effect-steve:hover img {
+figure.effect-steve:hover img, .effect-steve:active img {
     -webkit-transform: perspective(1000px) translate3d(0, 0, 21px);
     transform: perspective(1000px) translate3d(0, 0, 21px);
 }
@@ -2829,7 +2828,7 @@ figure.effect-steve:hover h2:before {
     opacity: 0;
 }
 
-figure.effect-steve:hover p {
+figure.effect-steve:hover p, .effect-steve:active p {
     opacity: 1;
 }
 
