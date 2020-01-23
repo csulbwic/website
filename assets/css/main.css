@@ -2788,11 +2788,18 @@ figure.effect-steve p {
 :hover does not work on mobile 
 */
 
-figure.effect-steve .overlay:hover, .overlay:active {
+figure.effect-steve .overlay:hover{
     background: black;
     height: 240px;
     opacity: .75;
 }
+
+figure.effect-steve .overlay:active {
+    background: black;
+    height: 240px;
+    opacity: .75;
+}
+
 
 figure.effect-steve h3 {
     color: white;
@@ -2815,11 +2822,21 @@ figure.effect-steve h3 {
     transition: opacity 0.5s, transform 0.5s;
 }
 
-figure.effect-steve:hover:before, .effect-steve:active {
+figure.effect-steve:hover:before{
     opacity: 1;
 }
 
-figure.effect-steve:hover img, .effect-steve:active img {
+/*New*/
+figure.effect-steve:active:before{
+    opacity: 1;
+}
+
+figure.effect-steve:hover img {
+    -webkit-transform: perspective(1000px) translate3d(0, 0, 21px);
+    transform: perspective(1000px) translate3d(0, 0, 21px);
+}
+
+figure.effect-steve:active img {
     -webkit-transform: perspective(1000px) translate3d(0, 0, 21px);
     transform: perspective(1000px) translate3d(0, 0, 21px);
 }
@@ -2828,9 +2845,13 @@ figure.effect-steve:hover h2:before {
     opacity: 0;
 }
 
-figure.effect-steve:hover p, .effect-steve:active p {
+figure.effect-steve:hover p {
     opacity: 1;
 }
+figure.effect-steve:active p {
+    opacity: 1;
+}
+
 
 figure.effect-steve:hover h3 {
     opacity: 1;
