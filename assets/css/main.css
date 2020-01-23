@@ -2789,7 +2789,7 @@ figure.effect-steve .overlay{
     -webkit-overflow-scrolling: touch;
 }
 
-figure.effect-steve .overlay:hover {
+figure.effect-steve .overlay:hover, .overlay:active {
     background: black;
     height: 240px;
     opacity: .75;
