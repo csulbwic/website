@@ -2785,9 +2785,9 @@ figure.effect-steve p {
     word-spacing: normal;
 }
 
-/*figure.effect-steve .overlay{
-    display: none;
-}*/
+figure.effect-steve .overlay{
+    -webkit-overflow-scrolling: touch;
+}
 
 figure.effect-steve .overlay:hover {
     background: black;
