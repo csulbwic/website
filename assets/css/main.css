@@ -2782,7 +2782,7 @@ figure.effect h3 {
     transition: opacity 0.5s, transform 0.5s;
 }
 
-figure.effect:hover:before, .effect:active {
+figure.effect:hover:before, .effect:active:before{
     opacity: 1;
 }
 
@@ -2791,7 +2791,7 @@ figure.effect:hover img, .effect:active img {
     transform: perspective(1000px) translate3d(0, 0, 21px);
 }
 
-figure.effect:hover h2:before {
+figure.effect:hover h2:before, :active h2:before {
     opacity: 0;
 }
 
@@ -2799,7 +2799,7 @@ figure.effect:hover p, .effect:active p {
     opacity: 1;
 }
 
-figure.effect:hover h3 {
+figure.effect:hover h3, .effect:active h3 {
     opacity: 1;
 }
 
@@ -2849,19 +2849,19 @@ img {
 
 }
 
-figure:hover h2 {
+figure:hover h2, figure:active h2{
     background: #e5badb;
     transition: transform 0.7s;
     /*transform: translateY(-2.5em);*/
     transform: translateY(-20.5em);
 }
 
-.grid figcaption a:hover {
+.grid figcaption a:hover, figcaption a:active {
     color: #e5badb;
     border-bottom-color: transparent;
 }
 
-#advisers .grid figcaption a:hover {
+#advisers .grid figcaption a:hover, .grid figcaption a:active{
     color: #936ede;
     border-bottom-color: transparent;
 }
