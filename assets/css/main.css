@@ -162,39 +162,6 @@ textarea {
     appearance: none;
 }
 
-/**/
-/*.team > img:hover {*/
-/*    transform: scale(1.4);*/
-/*}*/
-
-
-/* .team:hover::after {
-    content: 'hi';
-} */
-
-.nikki {
-    height: 310px;
-    width: 310px;
-    background-image: url('images/nikki.jpg');
-    background-size: contain;
-}
-
-.innerBio {
-    height: 100%;
-    width: 100%;
-    padding: 2%;
-    background-color: black;
-    opacity: .5;
-    font-weight: 700;
-    color: white;
-    display: none;
-
-}
-
-.nikki:hover>.innerBio {
-    display: block;
-}
-
 
 /* Basic */
 
@@ -2734,21 +2701,21 @@ body.homepage.is-preload #header:after {
     font-weight: 800;
 }
 
-figure.effect-steve {
+figure.effect {
     z-index: auto;
     background: #000;
 }
 
-figure.effect-steve:before {
+figure.effect:before {
     box-shadow: 0 3px 30px rgba(0, 0, 0, 0.8);
     opacity: 0;
 }
 
-figure.effect-steve figcaption {
+figure.effect figcaption {
     z-index: 1;
 }
 
-figure.effect-steve img {
+figure.effect img {
     opacity: 1;
     -webkit-transition: -webkit-transform 0.35s;
     transition: transform 0.5s;
@@ -2756,7 +2723,7 @@ figure.effect-steve img {
     transform: perspective(1000px) translate3d(0, 0, 0);
 }
 
-#advisers figure.effect-steve h2 {
+#advisers figure.effect h2 {
     background: #936ede;
     color: black;
     opacity: 95%;
@@ -2769,7 +2736,7 @@ figure.effect-steve img {
     transform: translateY(-20.5em);
 }
 
-figure.effect-steve h2 {
+figure.effect h2 {
     /*  background: #9779d3;
 */
     background: #e5badb;
@@ -2777,36 +2744,36 @@ figure.effect-steve h2 {
     opacity: 85%;
 }
 
-figure.effect-steve p {
+figure.effect p {
     /*background: black;*/
     color: white;
     line-height: 1;
     word-spacing: normal;
 }
 
-/*added ".overlay:active 
-:hover does not work on mobile 
+/*added ".overlay:active
+:hover does not work on mobile
 */
 
-figure.effect-steve .overlay:hover, .overlay:active {
+figure.effect .overlay:hover, .overlay:active {
     background: black;
     height: 240px;
     opacity: .75;
 }
 
-figure.effect-steve h3 {
+figure.effect h3 {
     color: white;
 }
 
-figure.effect-steve h2 {
+figure.effect h2 {
     position: absolute;
     padding: 0.25em;
     bottom: 10px;
     width: 100%;
 }
 
-figure.effect-steve p,
-figure.effect-steve h3 {
+figure.effect p,
+figure.effect h3 {
     margin-top: 1em;
     padding: 0.3em;
     font-weight: 800;
@@ -2815,24 +2782,24 @@ figure.effect-steve h3 {
     transition: opacity 0.5s, transform 0.5s;
 }
 
-figure.effect-steve:hover:before, .effect-steve:active {
+figure.effect:hover:before, .effect:active {
     opacity: 1;
 }
 
-figure.effect-steve:hover img, .effect-steve:active img {
+figure.effect:hover img, .effect:active img {
     -webkit-transform: perspective(1000px) translate3d(0, 0, 21px);
     transform: perspective(1000px) translate3d(0, 0, 21px);
 }
 
-figure.effect-steve:hover h2:before {
+figure.effect:hover h2:before {
     opacity: 0;
 }
 
-figure.effect-steve:hover p, .effect-steve:active p {
+figure.effect:hover p, .effect:active p {
     opacity: 1;
 }
 
-figure.effect-steve:hover h3 {
+figure.effect:hover h3 {
     opacity: 1;
 }
 
