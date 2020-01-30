@@ -2755,7 +2755,13 @@ figure.effect p {
 :hover does not work on mobile
 */
 
-figure.effect .overlay:hover, .overlay:active {
+figure.effect .overlay:hover{
+    background: black;
+    height: 240px;
+    opacity: .75;
+}
+
+figure.effect .overlay:active {
     background: black;
     height: 240px;
     opacity: .75;
@@ -2782,11 +2788,20 @@ figure.effect h3 {
     transition: opacity 0.5s, transform 0.5s;
 }
 
-figure.effect:hover:before, .effect:active:before{
+figure.effect:hover:before{
     opacity: 1;
 }
 
-figure.effect:hover img, .effect:active img {
+figure.effect:active:before{
+    opacity: 1;
+}
+
+figure.effect:hover img {
+    -webkit-transform: perspective(1000px) translate3d(0, 0, 21px);
+    transform: perspective(1000px) translate3d(0, 0, 21px);
+}
+
+figure.effect:active img {
     -webkit-transform: perspective(1000px) translate3d(0, 0, 21px);
     transform: perspective(1000px) translate3d(0, 0, 21px);
 }
@@ -2795,7 +2810,10 @@ figure.effect:hover h2:before, :active h2:before {
     opacity: 0;
 }
 
-figure.effect:hover p, .effect:active p {
+figure.effect:hover p {
+    opacity: 1;
+}
+figure.effect:active p {
     opacity: 1;
 }
 
