@@ -2236,7 +2236,7 @@ button,
 .button {
     position: relative;
     display: inline-block;
-    background: #8BADBF;
+    background: #9779d3;
     color: #fff;
     text-align: center;
     /*      border-radius: 0.5em;
@@ -2259,7 +2259,7 @@ input[type="reset"]:hover,
 button:hover,
 .button:hover {
     color: #fff;
-    background: #3C627B;
+    background: #7C88C3;
 }
 
 input[type="button"].alt,
