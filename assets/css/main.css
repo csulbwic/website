@@ -2236,7 +2236,7 @@ button,
 .button {
     position: relative;
     display: inline-block;
-    background: #8BADBF;
+    background: #9779d3;
     color: #fff;
     text-align: center;
     /*      border-radius: 0.5em;
@@ -2259,7 +2259,7 @@ input[type="reset"]:hover,
 button:hover,
 .button:hover {
     color: #fff;
-    background: #3C627B;
+    background: #7C88C3;
 }
 
 input[type="button"].alt,
@@ -2781,7 +2781,13 @@ figure.effect p {
 :hover does not work on mobile
 */
 
-figure.effect .overlay:hover, .overlay:active {
+figure.effect .overlay:hover{
+    background: black;
+    height: 240px;
+    opacity: .75;
+}
+
+figure.effect .overlay:active {
     background: black;
     height: 240px;
     opacity: .35;
@@ -2808,11 +2814,20 @@ figure.effect h3 {
     transition: opacity 0.5s, transform 0.5s;
 }
 
-figure.effect:hover:before, .effect:active:before{
+figure.effect:hover:before{
     opacity: 1;
 }
 
-figure.effect:hover img, .effect:active img {
+figure.effect:active:before{
+    opacity: 1;
+}
+
+figure.effect:hover img {
+    -webkit-transform: perspective(1000px) translate3d(0, 0, 21px);
+    transform: perspective(1000px) translate3d(0, 0, 21px);
+}
+
+figure.effect:active img {
     -webkit-transform: perspective(1000px) translate3d(0, 0, 21px);
     transform: perspective(1000px) translate3d(0, 0, 21px);
 }
@@ -2821,7 +2836,10 @@ figure.effect:hover h2:before, :active h2:before {
     opacity: 0;
 }
 
-figure.effect:hover p, .effect:active p {
+figure.effect:hover p {
+    opacity: 1;
+}
+figure.effect:active p {
     opacity: 1;
 }
 
