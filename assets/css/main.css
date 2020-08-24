@@ -2723,14 +2723,40 @@ figure.effect img {
     transform: perspective(1000px) translate3d(0, 0, 0);
 }
 
-#advisers figure.effect h2 {
+#advisors figure.effect h2 {
     background: #936ede;
     color: black;
     opacity: 95%;
 }
 
-#advisers figure:hover h2 {
+#advisors figure:hover h2 {
     background: #936ede;
+    transition: transform 0.7s;
+    /*transform: translateY(-2.5em);*/
+    transform: translateY(-20.5em);
+}
+
+#collaborators figure.effect h2 {
+    background: #b78aff;
+    color: black;
+    opacity: 95%;
+}
+
+#collaborators figure:hover h2 {
+    background: #b78aff;
+    transition: transform 0.7s;
+    /*transform: translateY(-2.5em);*/
+    transform: translateY(-20.5em);
+}
+
+#founders figure.effect h2 {
+    background: #8e4ff3;
+    color: black;
+    opacity: 95%;
+}
+
+#founders figure:hover h2 {
+    background: #8e4ff3;
     transition: transform 0.7s;
     /*transform: translateY(-2.5em);*/
     transform: translateY(-20.5em);
@@ -2758,7 +2784,7 @@ figure.effect p {
 figure.effect .overlay:hover, .overlay:active {
     background: black;
     height: 240px;
-    opacity: .75;
+    opacity: .35;
 }
 
 figure.effect h3 {
@@ -2861,8 +2887,18 @@ figure:hover h2, figure:active h2{
     border-bottom-color: transparent;
 }
 
-#advisers .grid figcaption a:hover, .grid figcaption a:active{
+#advisors .grid figcaption a:hover, .grid figcaption a:active{
     color: #936ede;
+    border-bottom-color: transparent;
+}
+
+#collaborators .grid figcaption a:hover, .grid figcaption a:active{
+    color: #b78aff;
+    border-bottom-color: transparent;
+}
+
+#founders .grid figcaption a:hover, .grid figcaption a:active{
+    color: #8e4ff3;
     border-bottom-color: transparent;
 }
 
