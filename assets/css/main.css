@@ -2622,6 +2622,11 @@ body.homepage.is-preload #header:after {
         text-align: center;
     }
 
+    /* pastOfficers */
+    #pastOfficers p.member {
+        text-align: center;
+    }
+
 /* Team */
 /*#team .officer {
     display: inline-block;
@@ -3446,6 +3451,10 @@ a i {
     }
 
     #membership p.member {
+        text-align: center;
+    }
+
+    #pastOfficers p.member {
         text-align: center;
     }
 
