@@ -2794,7 +2794,7 @@ figure.effect p {
 figure.effect .overlay:hover{
     background: black;
     height: 240px;
-    opacity: .75;
+    opacity: .25;
 }
 
 figure.effect .overlay:active {
